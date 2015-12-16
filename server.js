@@ -13,6 +13,10 @@ app.get('/', function (req, res) {
   res.send('Hello DLS!');
 });
 
+app.get('/test', function (req, res) {
+	res.send('Test successful!');
+});
+
 server.listen(port, function () { // fifth change
 
 });
